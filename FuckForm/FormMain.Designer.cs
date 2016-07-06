@@ -51,6 +51,7 @@
             this.labelUsername = new System.Windows.Forms.Label();
             this.textBoxUsername = new System.Windows.Forms.TextBox();
             this.labelMainPText = new System.Windows.Forms.Label();
+            this.sIGN2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.panelMain.SuspendLayout();
             this.SuspendLayout();
@@ -141,7 +142,8 @@
             // 数字签名ToolStripMenuItem
             // 
             this.数字签名ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rSAToolStripMenuItem1});
+            this.rSAToolStripMenuItem1,
+            this.sIGN2ToolStripMenuItem});
             this.数字签名ToolStripMenuItem.Name = "数字签名ToolStripMenuItem";
             this.数字签名ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
             this.数字签名ToolStripMenuItem.Text = "数字签名";
@@ -273,6 +275,13 @@
             this.labelMainPText.TabIndex = 0;
             this.labelMainPText.Text = "信息安全小工具";
             // 
+            // sIGN2ToolStripMenuItem
+            // 
+            this.sIGN2ToolStripMenuItem.Name = "sIGN2ToolStripMenuItem";
+            this.sIGN2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.sIGN2ToolStripMenuItem.Text = "SIGN2";
+            this.sIGN2ToolStripMenuItem.Click += new System.EventHandler(this.sIGN2ToolStripMenuItem_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -320,6 +329,7 @@
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.ToolStripMenuItem sIGN2ToolStripMenuItem;
     }
 }
 

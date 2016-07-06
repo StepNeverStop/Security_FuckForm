@@ -157,5 +157,16 @@ namespace FuckForm
             fsign.Show();
             fsign.MdiParent = this;
         }
+
+        private void sIGN2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ShutDownAllChildForms();
+
+            FormSIGN2 fsign2 = new FormSIGN2();
+            fsign2.Location = new Point(0, 0);
+
+            fsign2.Show();
+            fsign2.MdiParent = this;
+        }
     }
 }

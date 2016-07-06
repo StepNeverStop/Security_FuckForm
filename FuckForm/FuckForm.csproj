@@ -47,8 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AES.cs" />
+    <Compile Include="CA.cs" />
     <Compile Include="DES.cs" />
     <Compile Include="DH.cs" />
+    <Compile Include="FormCredential.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCredential.Designer.cs">
+      <DependentUpon>FormCredential.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,12 +104,21 @@
     <Compile Include="FormSIGN.Designer.cs">
       <DependentUpon>FormSIGN.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormSIGN2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSIGN2.Designer.cs">
+      <DependentUpon>FormSIGN2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MD5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RSA.cs" />
     <Compile Include="SHA1.cs" />
     <Compile Include="UserVerify.cs" />
+    <EmbeddedResource Include="FormCredential.resx">
+      <DependentUpon>FormCredential.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormSign.resx">
       <DependentUpon>FormSIGN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSIGN2.resx">
+      <DependentUpon>FormSIGN2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
