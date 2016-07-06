@@ -30,6 +30,7 @@ namespace FuckForm
             Credential.privatekey = keys[0];
             Credential.publickey = keys[1];
             Credential.timenow = DateTime.Now;
+            //Credential.timeto = DateTime.Now;//测试证书
             Credential.timeto = Credential.timenow.AddYears(2);
             Credential.user = "服务器";
             vs.vstring = Credential.user + Credential.timenow;

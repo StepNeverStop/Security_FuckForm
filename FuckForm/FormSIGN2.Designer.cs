@@ -63,15 +63,15 @@
             // 
             this.button3.Location = new System.Drawing.Point(40, 144);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(106, 23);
             this.button3.TabIndex = 0;
-            this.button3.Text = "发送数据";
+            this.button3.Text = "客户端发送数据";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(121, 144);
+            this.richTextBox1.Location = new System.Drawing.Point(152, 142);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(236, 96);
             this.richTextBox1.TabIndex = 1;
@@ -106,7 +106,7 @@
             // 
             // richTextBox2
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(375, 144);
+            this.richTextBox2.Location = new System.Drawing.Point(417, 144);
             this.richTextBox2.Name = "richTextBox2";
             this.richTextBox2.Size = new System.Drawing.Size(236, 94);
             this.richTextBox2.TabIndex = 5;
@@ -124,6 +124,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(720, 444);
             this.Controls.Add(this.richTextBox3);
             this.Controls.Add(this.richTextBox2);
@@ -136,6 +137,7 @@
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormSIGN2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "FormSIGN2";
             this.ResumeLayout(false);
             this.PerformLayout();
